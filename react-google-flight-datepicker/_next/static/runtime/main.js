@@ -4799,7 +4799,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Users/davidtranwd/Projects/landing/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Users/davidtranwd/Projects/nextjs-datpicker-landing/.next");
       return error;
     }
   };
