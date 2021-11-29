@@ -4463,7 +4463,7 @@ function fetchNextData(pathname, query, isServerRender, cb) {
   function getResponse() {
     return fetch(utils_1.formatWithValidation({
       // @ts-ignore __NEXT_DATA__
-      pathname: "/_next/data/".concat(__NEXT_DATA__.buildId).concat(pathname, ".json"),
+      pathname: "/landing-page/_next/data/".concat(__NEXT_DATA__.buildId).concat(pathname, ".json"),
       query: query
     })).then(function (res) {
       if (!res.ok) {
